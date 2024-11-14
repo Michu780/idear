@@ -65,4 +65,4 @@ def greet():
     return jsonify({'greeting': output_text}) 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001, debug=True)  # Make the server accessible over your network
+    app.run() # Make the server accessible over your network
